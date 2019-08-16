@@ -1,5 +1,5 @@
 # GoldenSlot API
 
 - [Player API](docs/player.md)
-- Wallet API
+- [Wallet API](docs/wallet.md)
 - Game API
