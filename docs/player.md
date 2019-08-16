@@ -43,7 +43,7 @@ GET: /api/v1/player
 | Name | Type | Required | Remark |
 | :----- | :-----: | :-----: | :----- |
 | page | int | No | |
-| pageSize | int | no | |
+| pageSize | int | No | |
 
 **Example Request**
 
