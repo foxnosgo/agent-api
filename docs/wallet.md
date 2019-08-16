@@ -12,7 +12,7 @@ Number of balance and amount must be non-decimal number by using amount * 100, f
 - [Get Player's Balance](#get-players-balance)
 - [Topup](#topup)
 - [Withdraw](#withdraw)
-- Transaction History
+- [Transaction History](#transaction-history)
 
 ## Get Player's Balance
 
@@ -125,3 +125,7 @@ http://{endpoint}/api/v1/withdraw/{playerID}
   "trxID": 3521146
 }
 ```
+
+## Transaction History
+
+TODO
