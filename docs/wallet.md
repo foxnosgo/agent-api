@@ -17,13 +17,13 @@ Number of balance and amount must be non-decimal number by using amount * 100, f
 ## Get Player's Balance
 
 ```HTTP
-GET: /api/vi/balance/{playerID}
+GET /api/vi/balance/{playerID}
 ```
 
 **Example Request**
 
 ```HTTP
-http://{endpoint}/api/v1/balance/3240
+http://endpoint/api/v1/balance/3240
 ```
 
 **Example Response**
@@ -38,7 +38,7 @@ http://{endpoint}/api/v1/balance/3240
 ## Topup
 
 ```HTTP
-POST: /api/v1/topup/{playerID}
+POST /api/v1/topup/{playerID}
 ```
 
 **Posy Body**
@@ -51,7 +51,7 @@ POST: /api/v1/topup/{playerID}
 **Example Request**
 
 ```HTTP
-http://{endpoint}/api/v1/topup/3240
+http://endpoint/api/v1/topup/3240
 ```
 
 ```json
@@ -83,7 +83,7 @@ http://{endpoint}/api/v1/topup/3240
 ## Withdraw
 
 ```HTTP
-POST: /api/v1/withdraw/{playerID}
+POST /api/v1/withdraw/{playerID}
 ```
 
 
@@ -97,7 +97,7 @@ POST: /api/v1/withdraw/{playerID}
 **Example Request**
 
 ```HTTP
-http://{endpoint}/api/v1/withdraw/{playerID}
+http://endpoint/api/v1/withdraw/{playerID}
 ```
 
 ```json

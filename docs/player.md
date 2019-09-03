@@ -7,7 +7,7 @@
 ## Create Player
 
 ```HTTP
-POST: /api/v1/player
+POST /api/v1/player
 ```
 
 **Body**
@@ -35,7 +35,7 @@ POST: /api/v1/player
 ## Get Player List
 
 ```HTTP
-GET: /api/v1/player
+GET /api/v1/player
 ```
 
 **Parameters**
@@ -48,7 +48,7 @@ GET: /api/v1/player
 **Example Request**
 
 ```HTTP
-http://{endpoint}/api/vi/player?page=1&pageSize=50
+http://endpoint/api/vi/player?page=1&pageSize=50
 ```
 
 **Exmple Response**
@@ -71,13 +71,13 @@ http://{endpoint}/api/vi/player?page=1&pageSize=50
 ## Get Player
 
 ```HTTP
-GET: /api/v1/player/{playerID}
+GET /api/v1/player/{playerID}
 ```
 
 **Example Request**
 
 ```HTTP
-http://{endpoint}/api/vi/player/mycustomer
+http://endpoint/api/vi/player/mycustomer
 ```
 
 **Example Response**
