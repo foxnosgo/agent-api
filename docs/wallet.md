@@ -17,13 +17,13 @@ Number of balance and amount must be non-decimal number by using amount * 100, f
 ## Get Player's Balance
 
 ```HTTP
-GET /api/vi/balance/{playerID}
+GET /api/vi/wallet/balance/{playerID}
 ```
 
 **Example Request**
 
 ```HTTP
-http://endpoint/api/v1/balance/3240
+http://endpoint/api/v1/wallet/balance/3240
 ```
 
 **Example Response**
@@ -38,7 +38,7 @@ http://endpoint/api/v1/balance/3240
 ## Topup
 
 ```HTTP
-POST /api/v1/topup/{playerID}
+POST /api/v1/wallet/topup/{playerID}
 ```
 
 **Posy Body**
@@ -51,14 +51,16 @@ POST /api/v1/topup/{playerID}
 **Example Request**
 
 ```HTTP
-http://endpoint/api/v1/topup/3240
+http://endpoint/api/v1/wallet/topup/3240
 ```
 
 ```json
 {
-  "amount": 100000, #actual amount is 1,000.00
+  "amount": 100000,
 }
 ```
+
+*actual amount is 1,000.00*
 
 **Response Body**
 
@@ -74,16 +76,18 @@ http://endpoint/api/v1/topup/3240
 ```json
 {
   "playerID": 3240,
-  "balance": 105000, #Represent: 1,050.00
+  "balance": 105000,
   "wallet": "casino",
   "trxID": 3521145
 }
 ```
 
+*actual balance: 1,050.00*
+
 ## Withdraw
 
 ```HTTP
-POST /api/v1/withdraw/{playerID}
+POST /api/v1/wallet/withdraw/{playerID}
 ```
 
 
@@ -97,14 +101,16 @@ POST /api/v1/withdraw/{playerID}
 **Example Request**
 
 ```HTTP
-http://endpoint/api/v1/withdraw/{playerID}
+http://endpoint/api/v1/wallet/withdraw/{playerID}
 ```
 
 ```json
 {
-  "amount": 100000, #actual amount is 1,000.00
+  "amount": 100000,
 }
 ```
+
+*actual amount is 1,000.00*
 
 **Response Body**
 
@@ -120,11 +126,13 @@ http://endpoint/api/v1/withdraw/{playerID}
 ```json
 {
   "playerID": 3240,
-  "balance": 5000, #Represent: 50.00
+  "balance": 5000,
   "wallet": "casino",
   "trxID": 3521146
 }
 ```
+
+*actual amount is 50.00*
 
 ## Transaction History
 
