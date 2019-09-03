@@ -56,7 +56,7 @@ http://endpoint/api/v1/topup/3240
 
 ```json
 {
-  "amount": 100000, // actual amount is 1,000.00
+  "amount": 100000, #actual amount is 1,000.00
 }
 ```
 
@@ -74,7 +74,7 @@ http://endpoint/api/v1/topup/3240
 ```json
 {
   "playerID": 3240,
-  "balance": 105000, // Represent: 1,050.00
+  "balance": 105000, #Represent: 1,050.00
   "wallet": "casino",
   "trxID": 3521145
 }
@@ -102,7 +102,7 @@ http://endpoint/api/v1/withdraw/{playerID}
 
 ```json
 {
-  "amount": 100000, // actual amount is 1,000.00
+  "amount": 100000, #actual amount is 1,000.00
 }
 ```
 
@@ -120,7 +120,7 @@ http://endpoint/api/v1/withdraw/{playerID}
 ```json
 {
   "playerID": 3240,
-  "balance": 5000, // Represent: 50.00
+  "balance": 5000, #Represent: 50.00
   "wallet": "casino",
   "trxID": 3521146
 }
