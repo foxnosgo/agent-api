@@ -69,6 +69,7 @@ http://endpoint/api/v1/wallet/topup/3240
 | playerID | int | an unique id for player |
 | balance | int64 | current balance after topuped |
 | wallet | string | wallet's name: casino, sport |
+| currentCredit | int | remaining credit |
 | trxID | int | reference transction id from API system |
 
 **Example Response**
@@ -78,6 +79,7 @@ http://endpoint/api/v1/wallet/topup/3240
   "playerID": 3240,
   "balance": 105000,
   "wallet": "casino",
+  "currentCredit": "9888900",
   "trxID": 3521145
 }
 ```
@@ -119,6 +121,7 @@ http://endpoint/api/v1/wallet/withdraw/{playerID}
 | playerID | int | an unique id for player |
 | balance | int64 | current balance after withdrawal |
 | wallet | string | wallet's name: casino, sport |
+| currentCredit | int | remaining credit |
 | trxID | int | reference transction id from API system |
 
 **Example Response**
@@ -128,6 +131,7 @@ http://endpoint/api/v1/wallet/withdraw/{playerID}
   "playerID": 3240,
   "balance": 5000,
   "wallet": "casino",
+  "currentCredit": "9888900",
   "trxID": 3521146
 }
 ```
