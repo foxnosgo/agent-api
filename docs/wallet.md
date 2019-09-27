@@ -9,10 +9,12 @@ Number of balance and amount must be non-decimal number by using amount * 100, f
 | 1,000 | 100000 |
 | 32.65 | 3265 |
 
-- [Get Player's Balance](#get-players-balance)
-- [Topup](#topup)
-- [Withdraw](#withdraw)
-- [Transaction History](#transaction-history)
+- [Wallet API](#wallet-api)
+  - [Time Format](#time-format)
+  - [Get Player's Balance](#get-players-balance)
+  - [Topup](#topup)
+  - [Withdraw](#withdraw)
+  - [Transaction History](#transaction-history)
 
 ## Time Format
 
@@ -57,7 +59,7 @@ http://endpoint/api/v1/wallet/balance/3240
 POST /api/v1/wallet/topup/{playerID}
 ```
 
-**Posy Body**
+**Post Body**
 
 | Name | Type | Required | Remark |
 | :----- | :-----: | :-----: | :----- |
@@ -113,7 +115,7 @@ POST /api/v1/wallet/withdraw/{playerID}
 ```
 
 
-**Posy Body**
+**Post Body**
 
 | Name | Type | Required | Remark |
 | :----- | :-----: | :-----: | :----- |

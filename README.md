@@ -10,6 +10,10 @@
   - [Withdraw](docs/wallet.md#withdraw)
   - [Transaction History](docs/wallet.md#transaction-history)
 - Game API
+  - [Get Game List](docs/game.md#get-game-list)
+  - [Launch Game](docs/game.md#launch-game)
+  - Get Game History
+  - Get Game Record
 
 ## Request Authentication
 
