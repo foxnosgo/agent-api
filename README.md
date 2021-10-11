@@ -12,8 +12,7 @@
 - Game API
   - [Get Game List](docs/game.md#get-game-list)
   - [Launch Game](docs/game.md#launch-game)
-  - Get Game History
-  - Get Game Record
+  - [Get Game History](docs/game.md#get-game-history)
 
 ## Request Authentication
 
