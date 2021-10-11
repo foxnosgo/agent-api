@@ -2,7 +2,7 @@
 
  - [Get Game List](#get-game-list)
  - [Launch Game](#launch-game)
- - Get Game History
+ - [Get Game History](#get-game-history)
  - Get Game Record
 
  ## Get Game List
