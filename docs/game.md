@@ -149,8 +149,3 @@ GET http://endpoint/api/v1/games/history?date=2021-09-20T15:04:05Z&playerID=3468
   ]
 }
 ```
-
-
-## Get Game Record
-
-TODO..
