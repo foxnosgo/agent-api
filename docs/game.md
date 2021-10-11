@@ -112,7 +112,44 @@ POST /api/v1/games
 
 ## Get Game History
 
-TODO..
+**Example Request**
+
+```HTTP
+GET http://endpoint/api/v1/games/history?date=2021-09-20T15:04:05Z&playerID=34689
+```
+**Exmple Response**
+
+```json
+{
+    "games": [
+        {
+            "gameID": "1001",
+            "name": "Girls with Guns II- Frozen Dawn  ",
+            "category": "slot",
+            "device": 1,
+            "imageURL": "/assets/img/game/Feature Slot/GirlsWithGuns_FrozenDawn.jpg",
+            "provider": "microgaming"
+        },
+        {
+            "gameID": "1002",
+            "name": "High Society ",
+            "category": "slot",
+            "device": 3,
+            "imageURL": "/assets/img/game/Video Slot/High-Society.jpg",
+            "provider": "microgaming"
+        },
+        {
+            "gameID": "1003",
+            "name": "300 Shields",
+            "category": "slot",
+            "device": 1,
+            "imageURL": "/assets/img/game/Video Slot/300shields.jpg",
+            "provider": "microgaming"
+        }
+  ]
+}
+```
+
 
 ## Get Game Record
 
