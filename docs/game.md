@@ -114,7 +114,7 @@ POST /api/v1/games
 **Example Request**
 
 ```HTTP
-GET http://endpoint/api/v1/games/history?date=2021-09-20T15:04:05Z&playerID=34689
+GET http://{endpoint}/api/v1/games/history?date=2021-09-20T15:04:05Z&playerID=34689
 ```
 **Exmple Response**
 
